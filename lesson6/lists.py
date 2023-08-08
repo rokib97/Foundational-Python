@@ -100,6 +100,7 @@ another_tuple = tuple((10,20,30,40,40,40))
 # update tuple using list [it creates new tuple]
 
 new_list = list(another_tuple)
+print(new_list)
 new_list.append("rokib")
 new_tuple = tuple(new_list)
 # print(another_tuple,  new_tuple)
@@ -111,4 +112,4 @@ new_tuple = tuple(new_list)
 # print(rest)
 
 # check method available 
-print(new_tuple.count(40))
+# print(new_tuple.count(40))

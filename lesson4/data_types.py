@@ -84,7 +84,7 @@ new_name = "Brokib"
 # Boolean Data Type 
 
 # print(new_name.startswith('b'.upper()))
-# print(new_name.endswith('B'.lower()))
+print(new_name.endswith('B'))
 
 my_value  = False
 x = bool(False)
@@ -132,4 +132,4 @@ import math
 
 zip_code = "1216"
 zip_value = int(zip_code)
-print(type(zip_value))
+# print(type(zip_value))
