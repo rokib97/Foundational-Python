@@ -8,8 +8,7 @@ empty_list = []
 # ==========exist(READ) or not========== 
 # print("Rokib".lower() in users)
 # print([] in empty_list)
-# print(users[0].count("s"))
-# print(users[0].center(10, "💟"))
+
 
 #========== accessing(READ) list items ==========
 # print(numbers.index(69))
