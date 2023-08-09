@@ -35,7 +35,8 @@ result = add(100,230)
     
     
 def mult_names_items(**kwargs):
-    print(kwargs)
+    # print(kwargs)
+    for key, value in kwargs.items():
+        print(kwargs[key])
     
-
-mult_names_items(first = "rokib",last ="hasan")
+mult_names_items(first = "rokib",last ="hasan", age = 21, phone = "016139693635")
